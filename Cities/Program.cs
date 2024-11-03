@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -12,7 +12,7 @@ class Program
 
     static void Main()
     {
-        LoadCitiesFromFile("example.txt");
+        LoadCitiesFromFile("cities.txt");
         Console.WriteLine("Добро пожаловать в игру 'Города'!");
         playAgainstComputer = ChooseGameMode();
         int playerCount = playAgainstComputer ? 1 : GetPlayerCount();
